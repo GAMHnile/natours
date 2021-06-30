@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch:sass": "node-sass",
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
     "devserver": "live-server",
-    "start": "npm-run-all devserver"
+    "start": "npm-run-all --parallel watch:sass devserver"
   },
   "repository": {
     "type": "git",
