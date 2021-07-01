@@ -10,6 +10,7 @@
         &:hover{
             transform: scale(1.1) translateY(-2rem);
             outline: 1rem solid $color-primary;
+            -moz-outline-radius: 3px;
             outline-offset: 1rem;
             z-index: 20;
         }
